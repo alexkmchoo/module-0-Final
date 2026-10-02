@@ -1,7 +1,10 @@
 print("Data Literacy Field Notes")
 print("_________________________")
-print("column : model")
-print("example value : m4")
+column = "model"
+print(f"column : {column}")
+car_name = "m4"
+car_combined = "example value : " + car_name
+print(car_combined)
 print ('inferred data type : string and qualitative. It is qualitative even though it contains digits but arithmetic operations do not make sense for it.')
 print ('This variable represents the model of the car')
 print()
